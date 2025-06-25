@@ -1,0 +1,103 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+#nav
+{
+    position: sticky;
+    top: 0;
+}
+.navbar
+{
+    background-image: linear-gradient(to right,rgb(79, 4, 74),rgb(173, 25, 84));
+}
+.navbar li
+{
+    margin: 0px 10px;
+}
+.navbar li a
+{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.navbar-brand img
+{
+    height: 40px;
+    margin-left: 10px;
+}
+#Banner
+{
+    background-image: linear-gradient(to right,rgb(79, 4, 74),rgb(173, 25, 84));
+    color: white;
+    padding-top: 5%;
+}
+#Banner img
+{
+    height: 250px;
+}
+#Programs img
+{
+    height: 120px;
+    width:120px;
+    margin-left: 80px;
+}
+#Programs h3
+{
+    text-align: center;
+}
+#Programs .border-right
+{
+    border-right: 3px solid blue;
+}
+#Socail-Media
+{
+    background-color: aquamarine;
+}
+#Socail-Media h2
+{
+    text-decoration: underline;
+    padding-top: 10px;
+}
+#Socail-Media img
+{
+    margin-right: 14px;
+    margin-top: 10px;
+}
+#Socail-Media img:hover
+{
+    transform: translateY(-10px);
+    transition: 0.4s ease;
+}
+#Contact-Us
+{
+    background-image: linear-gradient(to right,rgb(79, 4, 74),rgb(173, 25, 84));
+ color: white;
+}
+#Contact-Us img, .wave
+{
+    width: 100%;
+    height: 80px;
+   
+}
+#Contact-Us .fa-solid
+{
+    margin-right: 10px;
+}
+.form-control
+{
+    max-width: 250px;
+    border-radius: 0;
+}
+.btn-primary
+{
+    margin-top: 10px;
+}
+.cpy-r
+{
+    text-align: center;
+    padding-bottom: 0;
+}
